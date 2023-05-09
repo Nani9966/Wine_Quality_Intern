@@ -1,0 +1,10 @@
+training_pipeline_config:
+  pipeline_name: Wine_ML
+  artifact_dir: artifact
+
+data_ingestion_config:
+  dataset_download_url: https://github.com/Nani9966/winedataset/blob/main/winequality-white.csv
+  raw_data_dir: raw_data
+  ingested_dir: ingested_data
+  ingested_train_dir: train
+  ingested_test_dir: test 
