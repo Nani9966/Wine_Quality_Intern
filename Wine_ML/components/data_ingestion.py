@@ -48,9 +48,6 @@ class DataIngestion:
 
             us_Wine_ML_file_name = os.path.join(raw_data_dir,file_name)
 
-            today_date = date.today()
-            current_year = today_date.year
-
             us_Wine_ML_dataframe = pd.read_csv(us_Wine_ML_file_name,sep=";")
 
             train_set = None
